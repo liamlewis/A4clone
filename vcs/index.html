@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/vcs.css">
+    <script src="js/vcs.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <title>VCS</title>
+</head>
+
+<body>
+    <h1>Liam Lewis / VCS / May 2019</h1>
+    <br>
+    <br>
+    <h3>Version Control System</h3>
+    <br>
+    <p class="ff">Version control systems are a category of software tools that help a software team manage changes to
+        source code over time.
+        Version control software keeps track of every modification to the code in a special kind of database. If a
+        mistake is made,
+        developers can turn back the clock and compare earlier versions of the code to help fix the mistake while
+        minimizing disruption
+        to all team members.
+    </p>
+    <p class="ff">Source: <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">Atlassian</a></p>
+    <br>
+    <h3>GitHub</h3>
+    <br>
+    <p class="ff">GitHub is a code hosting platform for version control and collaboration. It lets you and others work
+        together on projects from anywhere.</p>
+    <p class="ff">Source: <a href="https://guides.github.com/activities/hello-world/">GitHub</a></p>
+    <br>
+    <h3>How to Use GitHub</h3>
+    <ul>
+        <li>Make an account on the GitHub website</li>
+        <li>Create a new repository</li>
+        <li>Make sure your new repository has correct settings</li>
+        <li>Drag and drop files to your new repository</li>
+        <li>Commit the files</li>
+        <br>
+        <h3>In your command module:</h3>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;johndoe123&quot;
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;johndoe123@email.com&quot;
+<font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --list
+user.name=johndoe123
+user.email=johndoe123@email.com
+</pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ cd /var/www/html/liaml/vcs
+    <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/liaml/vcs</b></font>$ ll
+    total 24
+    drwxrwxr-x  5 compsci compsci 4096 May 20 13:15 <font color="#729FCF"><b>.</b></font>/
+    drwxrwxrwx 30 compsci compsci 4096 May 20 13:14 <span style="background-color:#4E9A06"><font color="#3465A4">..</font></span>/
+    drwxrwxr-x  2 compsci compsci 4096 May 20 13:15 <font color="#729FCF"><b>css</b></font>/
+    drwxrwxr-x  2 compsci compsci 4096 May 20 13:15 <font color="#729FCF"><b>images</b></font>/
+    -rw-rw-r--  1 compsci compsci 2383 May 22 13:43 index.html
+    drwxrwxr-x  2 compsci compsci 4096 May 20 13:15 <font color="#729FCF"><b>js</b></font>/
+    </pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/liaml/vcs</b></font>$ git init
+        Initialized empty Git repository in /var/www/html/liaml/vcs/.git/
+        </pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/liaml/vcs</b></font>$ git status
+            On branch master
+            
+            No commits yet
+            
+            Changes to be committed:
+              (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
+            
+                <font color="#4E9A06">new file:   css/vcs.css</font>
+                <font color="#4E9A06">new file:   index.html</font>
+                <font color="#4E9A06">new file:   js/vcs.js</font>
+            
+            </pre>
+    </ul>
+</body>
+
+</html>
